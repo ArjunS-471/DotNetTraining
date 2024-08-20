@@ -163,6 +163,37 @@ namespace Assignment_20Aug2024
             }
         }
 
+        //For searching a doc info details based on provided RegNo.
+        public static void FetchInfo(DocInfo[] InfoList)
+        {
+            int Num;
+            Console.WriteLine("Enter RegNo to be fetched = ");
+            Num = Int32.Parse(Console.ReadLine());
+
+            DocInfo[] List2 = new DocInfo[10];
+            bool blnItemFound = true;
+
+            //Except for the matching Reg No, all other items added to new array
+            for (int i = 0; i < InfoList.Length; i++)
+            {
+                if (InfoList[i] == null)
+                {
+                    break;
+                }
+                else if (InfoList[i].intRegNo == Num)
+                {
+                    Console.WriteLine("Reg No" + "\t" + "Doc Name" + "\t" + "City Name" + "\t" + "Specialisation" + "\t" + "Clinic Address" + "\t" + "Clinic Timings" + "\t" + "Contact No.");
+                    Console.Write(InfoList[i].intRegNo + "\t" + InfoList[i].strDocName + "\t" + InfoList[i].strCityName + "\t" + InfoList[i].strSpecialisation + "\t" + InfoList[i].strClinicAddr + "\t" + InfoList[i].strClinicTimings + "\t" + InfoList[i].strContactNum + "\n");
+                    blnItemFound = true;
+                    break;
+                }
+            }
+            if (blnItemFound)
+            {
+                Console.WriteLine("Entered number not present in available list");
+            }
+        }
+
         //For deleting a doc info details based on provided RegNo.
         public static DocInfo[] DeleteInfo(DocInfo[] InfoList)
         {
@@ -194,7 +225,7 @@ namespace Assignment_20Aug2024
             bool CircuitBreaker = true;
             while (CircuitBreaker)
             {
-                Console.WriteLine("\n Please enter your choice \n 1.Add Info details \n 2.Display Info \n 3.Delete Info \n 4.Exit");
+                Console.WriteLine("\n Please enter your choice \n 1.Add Info details \n 2.Display full Info \n 3.Fetch specific Info \n 4.Delete Info \n 5.Exit");
                 Boolean choiceCheck = Int32.TryParse(Console.ReadLine(), out int choice);
                 //choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -207,9 +238,12 @@ namespace Assignment_20Aug2024
                         DisplayInfo(Info);
                         break;
                     case 3:
-                        Info = DeleteInfo(Info); ;
+                        FetchInfo(Info);
                         break;
                     case 4:
+                        Info = DeleteInfo(Info); ;
+                        break;
+                    case 5:
                         CircuitBreaker = false;
                         break;
                     default:
