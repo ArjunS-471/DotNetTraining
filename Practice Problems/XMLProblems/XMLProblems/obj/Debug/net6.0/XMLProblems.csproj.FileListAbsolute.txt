@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\bin\Debug\net6.0\XMLProblems.exe
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\bin\Debug\net6.0\XMLProblems.deps.json
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\bin\Debug\net6.0\XMLProblems.runtimeconfig.json
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\bin\Debug\net6.0\XMLProblems.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\bin\Debug\net6.0\XMLProblems.pdb
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\refint\XMLProblems.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.pdb
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\ref\XMLProblems.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Practice Problems\XMLProblems\XMLProblems\obj\Debug\net6.0\XMLProblems.csproj.CopyComplete
