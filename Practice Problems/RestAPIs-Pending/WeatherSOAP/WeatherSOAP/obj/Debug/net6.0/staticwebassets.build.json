@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uRIhBddwBcMvvBhQSRjqO+vvYJOMha9OVe9cgR2rYk8=",
+  "Source": "WeatherSOAP",
+  "BasePath": "_content/WeatherSOAP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

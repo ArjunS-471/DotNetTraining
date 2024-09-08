@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace EmployeeRecords.Models;
+
+public partial class TblEmployee
+{
+    public int Id { get; set; }
+
+    public string? EmployeeName { get; set; }
+
+    public decimal? EmployeeSalary { get; set; }
+
+    public string? EmployeeGender { get; set; }
+}
