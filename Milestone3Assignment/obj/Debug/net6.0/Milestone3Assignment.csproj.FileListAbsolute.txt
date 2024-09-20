@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\bin\Debug\net6.0\Milestone3Assignment.exe
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\bin\Debug\net6.0\Milestone3Assignment.deps.json
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\bin\Debug\net6.0\Milestone3Assignment.runtimeconfig.json
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\bin\Debug\net6.0\Milestone3Assignment.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\bin\Debug\net6.0\Milestone3Assignment.pdb
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\refint\Milestone3Assignment.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.pdb
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\Milestone3Assignment.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone3Assessment\Milestone3Assignment\obj\Debug\net6.0\ref\Milestone3Assignment.dll
