@@ -253,24 +253,41 @@ namespace Milestone3Assignment
         //Demonstration of possible use case
         public static void Main(string[] args)
         {
+            //Add flight details
             var flightManagement = new FlightManagement();
-            flightManagement.AddFlight(new DomesticFlight { FlightNumber = "FL1001", Destination = "New York", BaseFare = 300 });
-            flightManagement.AddFlight(new InternationalFlight { FlightNumber = "FL2001", Destination = "London", BaseFare = 700 });
+            flightManagement.AddFlight(new DomesticFlight { FlightNumber = "FL1001", Destination = "New Delhi", BaseFare = 100 });
+            flightManagement.AddFlight(new InternationalFlight { FlightNumber = "FL2001", Destination = "London", BaseFare = 1000 });
             Console.WriteLine("Added flight details");
+            Console.WriteLine("");
             
-            var passenger = new Passenger { Name = "John Doe", Email = "john.doe@example.com", Phone = "+12345678901" };
+            //Add passenger details
+            Console.WriteLine("Getting flight details - ");
+            var passenger = new Passenger { Name = "Virat Kohli", Email = "virat.kohli@abc.com", Phone = "+12345678910" };
             IBooking onlineBooking = new OnlineBooking();
-            onlineBooking.BookTicket(flightManagement.GetFlightsByDestination("New York").First(), passenger);
-            Console.WriteLine("Getting flight details");
+            onlineBooking.BookTicket(flightManagement.GetFlightsByDestination("New Delhi").First(), passenger);
+            Console.WriteLine("");
 
+            //Displaying flight details
+            Console.WriteLine("Displaying flight details - ");
             flightManagement.DisplayAllFlights();
-            Console.WriteLine("Displaying flight details");
+            Console.WriteLine("");
 
+            //CSV Operations
             var fileManager = new FlightFileManager();
             fileManager.WriteFlightsToCsv("flights.csv", flightManagement);
             Console.WriteLine("Written to CSV");
             fileManager.ReadFlightsFromCsv("flights.csv", flightManagement);
             Console.WriteLine("Read CSV");
+            Console.WriteLine("");
+
+            //Cancelling flight
+            Console.WriteLine("Cancelling flight - ");
+            flightManagement.RemoveFlight("FL2001");
+
+            //Displaying flight details again
+            Console.WriteLine("Displaying flight details - ");
+            flightManagement.DisplayAllFlights();
+            Console.WriteLine("");
         }
     }
 }
