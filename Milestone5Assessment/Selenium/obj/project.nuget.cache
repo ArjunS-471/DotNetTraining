@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1s4R3klSUdGdNefl6WZYMjEoQLb0m/74zmdw8Zy16F4S25/7y3jA5XWxFpDw0IX4xZQ8Ke+kYavOjO5UzBfMwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Course-Structure\\Labs\\Milestone5Assessment\\Selenium\\Selenium.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\selenium.chrome.webdriver\\85.0.0\\selenium.chrome.webdriver.85.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\selenium.webdriver\\4.25.0\\selenium.webdriver.4.25.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
