@@ -17,13 +17,32 @@ namespace PageObjectModelDemo
             IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.saucedemo.com");
             driver.Manage().Window.Maximize();
+            //POM
             var loginPage = new LoginPage(driver);
             var homePage = new HomePage(driver);
             
-            //login and home page
+            //login ID and password update
             loginPage.Login("standard_user", "secret_sauce");
-            homePage.OpenProduct("Sauce Labs Backpack");
+
+            //J-Query forclicking button
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            string script = "document.getElementById('login-button').click()";
+            js.ExecuteScript(script);
             
+            homePage.OpenProduct("Sauce Labs Backpack");
+
+            //Using xpath - alternate approach
+            IWebElement heading = driver.FindElement(By.XPath("//*[@id=\"header_container\"]/div[2]/span"));
+            Console.WriteLine(heading.Text);
+            if (heading.Text == "Products")
+            {
+                Console.WriteLine("Login succesful using Xpath");
+            }
+            else
+            {
+                Console.WriteLine("Login failed");
+            }
+
             driver.Quit();
             Console.WriteLine("");
 

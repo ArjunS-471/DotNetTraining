@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace PageObjectModelDemo.Pages
         {
 
         }
-
+        
         //Item to identify Homepage
         private By productSelector = By.CssSelector(".invetory_item");
 

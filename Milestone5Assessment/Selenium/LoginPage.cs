@@ -18,14 +18,14 @@ namespace PageObjectModelDemo.Pages
         //Login page elements
         private By usernameField = By.Id("user-name");
         private By passwordField = By.Id("password");
-        private By loginButton = By.Id("login-button");
+        //private By loginButton = By.Id("login-button");
 
         //Typing id, password and clicking on login button.
         public void Login(string username, string password)
         {
             FindElement(usernameField).SendKeys(username);
             FindElement(passwordField).SendKeys(password);
-            FindElement(loginButton).Click();
+            //FindElement(loginButton).Click();
         }
     }
 }
