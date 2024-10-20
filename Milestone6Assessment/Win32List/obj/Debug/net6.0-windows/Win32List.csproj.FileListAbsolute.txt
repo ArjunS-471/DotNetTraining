@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\bin\Debug\net6.0-windows\Win32List.exe
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\bin\Debug\net6.0-windows\Win32List.deps.json
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\bin\Debug\net6.0-windows\Win32List.runtimeconfig.json
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\bin\Debug\net6.0-windows\Win32List.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\bin\Debug\net6.0-windows\Win32List.pdb
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.Form1.resources
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\refint\Win32List.dll
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.pdb
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\Win32List.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Course-Structure\Labs\Milestone6Assessment\Win32List\obj\Debug\net6.0-windows\ref\Win32List.dll
